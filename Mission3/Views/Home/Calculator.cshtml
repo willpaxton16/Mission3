@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+@model CalculatorModel
+
+<!-- Form to input grade calculation -->
+<h2>Grade Calculator</h2>
+<form method="post">
+    <label>Assignments:</label>
+    <input id="atxt" asp-for="Assignments" /><br />
+    <label>Group Project:</label>
+    <input id="gptxt" asp-for="GroupProjects" /> <br />
+    <label>Quizzes:</label>
+    <input id="qtxt" asp-for="Quizzes" /> <br />
+    <label>Exams:</label>
+    <input id="etxt" asp-for="Exams" /><br />
+    <label>INTEX:</label>
+    <input id="itxt" asp-for="INTEX" /><br />
+    <input type="submit" id="buttoncalc" value="Calculate" />
+
+    <div asp-validation-summary="All"></div>
+</form>
+

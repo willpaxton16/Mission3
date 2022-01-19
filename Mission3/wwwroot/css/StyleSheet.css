@@ -1,0 +1,25 @@
+﻿body {
+
+}
+
+li {
+    list-style-type: none;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+.box1 {
+    background-color: gray;
+    padding-bottom: 10px;
+}
+
+.txt {
+    text-align: center;
+}
+p {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
